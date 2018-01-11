@@ -30,8 +30,8 @@ string LetterChanges(string str) {
   for(auto& it : str){
      char inc_letter = it;
      if(isCharInLetterRange(it)){
-     inc_letter = increaseLetter(it);
-     if(isLetterVowel(inc_letter))
+       inc_letter = increaseLetter(it);
+       if(isLetterVowel(inc_letter))
          inc_letter = inc_letter - 32;
      }
      changed_str += inc_letter;
