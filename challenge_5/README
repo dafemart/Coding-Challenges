@@ -2,4 +2,4 @@ Find a pair of integers in an array whose values add up to a specific integer.
 
 Google interview question
 
-My solution runs in 0(n) time.
+My solution runs in O(n) time.
